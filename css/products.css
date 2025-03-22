@@ -118,6 +118,9 @@ table td{
 .ral{
     text-align: right;
 }
+.lal{
+    text-align: left;
+}
 .uppercase{
     text-transform: uppercase;
 }
