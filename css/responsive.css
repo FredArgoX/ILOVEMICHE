@@ -1,0 +1,24 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 800px){
+    main{
+        flex-direction: row;
+        gap: 15px;
+    }
+    #swiperx{
+        max-width: calc((100vw - 45px) / 2);
+    }
+}
+
+
+/*
+@media screen and (min-width: 650px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "section_x1 section_x2";
+    }
+}

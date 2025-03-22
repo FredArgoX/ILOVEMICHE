@@ -1,0 +1,60 @@
+:root{
+    /* Colors */
+    --color-a: #191919;
+    --color-b: #FFFFFF;
+    --color-c: #1D4ED8;
+    --color-d: #606060;
+    --color-e: #272727;
+    --color-f: #a0a0a0;
+    --color-g: #cc0000;
+
+    /* General Spacing */
+    --general-margin: 15px;
+    --general-padding: 15px;
+    --general-border-radius: 6px;
+    --general-height: 30px;
+
+    /* Common Spacing */
+    --common-margin: 30px;
+    --common-padding: 30px;
+    --common-gap: 30px;
+    --common-length: 30px;
+
+    /* Image Diemnsions */
+    --image-length-1: 50px;
+    --image-length-2: 50px;
+}
+
+/*IMAGE SLIDER PART*/
+.swiper {
+    width: 100%;
+    padding: 0;
+}
+.swiper-slide{
+    position: relative;
+    width: 195px;
+    aspect-ratio: 3 / 4;
+    border-radius: var(--general-border-radius);
+    border: 10px solid rgba(0, 0, 0, 0.5);
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--general-border-radius);
+    user-select: auto;
+}
+.swiper-pagination{
+    display: block;
+    position: relative;
+    margin-top: 15px;
+}
+.swiper-pagination-bullet{
+    background-color: var(--color-d);
+    height: 10px;
+    width: 10px;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: var(--color-g);
+}

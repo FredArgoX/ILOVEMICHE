@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    /* Colors */
+    --color-a: #191919;
+    --color-b: #FFFFFF;
+    --color-c: #1D4ED8;
+    --color-d: #606060;
+    --color-e: #272727;
+    --color-f: #a0a0a0;
+    --color-g: #cc0000;
+
+    /* General Spacing */
+    --general-margin: 15px;
+    --general-padding: 15px;
+    --general-border-radius: 6px;
+    --general-height: 30px;
+
+    /* Common Spacing */
+    --common-margin: 30px;
+    --common-padding: 30px;
+    --common-gap: 30px;
+    --common-length: 30px;
+
+    /* Image Diemnsions */
+    --image-length-1: 50px;
+    --image-length-2: 50px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.6rem;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--color-a);
+}
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* /////////////////////////////////////////////////////// */
+/* Header General Style */
+header{
+    padding: var(--general-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block-end: 0;
+}
+/* /////////////////////////////////////////////////////// */
+/* Header Content style */
+#header-logo{
+    height: 80px;
+}
+.d1{
+    width: 80px;
+    height: var(--general-padding);
+    border-block-end: 3px solid var(--color-e);
+}
+.d2{
+    width: 320px;
+    height: var(--general-padding);
+    border-block-end: 3px solid var(--color-d);
+}
+.d3{
+    width: 80px;
+    height: var(--general-padding);
+    border-block-end: 3px solid var(--color-e);
+}
+/* /////////////////////////////////////////////////////// */
+/* Main Content style */
+main{
+    padding: var(--general-padding);
+}
+
+
+
+
+#temporada-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--general-border-radius);
+}
+#temporada-img{
+    width: 100%;
+    border-radius: var(--general-border-radius);
+}
+#separator1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block-end: var(--general-padding);
+}
+/*---*/
+/*---*/
+/*Slider 1 here in the html code*/
+/*---*/
+/*---*/
+#separator2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block-end: var(--general-padding);
+}
+
+
+
+
+
+

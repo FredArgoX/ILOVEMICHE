@@ -1,0 +1,158 @@
+
+
+
+
+.descriptions {
+    margin-top: 20px;
+    text-align: center;
+    width: 96%;
+    color: white;
+}
+
+.description {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.description.active {
+    display: block;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+table th,
+table td {
+    border: 1px solid rgba(177, 177, 177, 0.4);
+    padding: 8px;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+/* PRODUCT DATA ---------------------------------------*/
+body h1, body p, body h3, body table{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+body h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 800;
+    /*Uncomment only to add a background image*/
+    /*background-image: url("images/h1_back.png");*/
+    /*background-size: cover;*/
+    height: 3.33rem;
+    background-color: #a10000;
+    border-top-left-radius: 3.33rem;
+    border-bottom-right-radius: 3.33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+body h3{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #a10000;
+}
+body ul, body ol{ /* Separated from previous block because it takes 100% width larger than normal */
+    margin-bottom: 1rem;
+    padding-left: 1.5rem; /* Adjust default list indentation */
+    list-style: disc;
+}
+
+
+body table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: rgb(0, 0, 0);
+}
+body table td, body table th {
+    /* Additional styling for table cells if needed */
+    /*border: 1px solid red;*/ /* This is optional, for cell borders */
+    padding: 0.2rem; /* This is optional, for cell padding */
+    border-color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.ral{
+    text-align: right;
+}
+.btop{
+    border-top: rgb(66, 66, 66) dotted 1px;
+}
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+.warning{
+    background-color: rgb(15, 15, 15);
+    color: rgb(190, 23, 23);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border: rgb(190, 23, 23) solid 2px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.warning >p{
+    text-align: center;
+    margin-bottom: 0rem;
+}
+.warning >*, .warning >*>*{
+    background-color: rgb(15, 15, 15);
+    color: rgb(190, 23, 23);
+}
+
+
+
+
+
+#temporada{
+    max-width: 90%;
+}
+#temporada img{
+    max-width: 100%;
+}
+
+
