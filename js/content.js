@@ -29,7 +29,7 @@ const cerveza = {
         ]},
         {'subtitle':'Cerveza de 1/2',
         'description':'',
-        'flavors':['Corona', 'Victoria', 'Corona Cero'],
+        'flavors':['Corona', 'Victoria', 'Corona Cero', 'Corona light'],
         'table':[
             {'option':' ',              'price_unique':40},
             {'option':'Vaso Preparado',           'price_unique':25},
@@ -115,6 +115,13 @@ const bebidas = {
         'flavors':[],
         'table':[
             {'option':' ', 'price_litro':110,  'price_top':160},
+        ]},
+        {'subtitle':'Consentida',
+        'btn':true,
+        'description':'Vodka, Limón, Jugo de sandía arizona, Refresco de lima',
+        'flavors':[],
+        'table':[
+            {'option':' ', 'price_litro':130,  'price_top':180},
         ]},
         {'subtitle':'Margaritas Frappe',
         'description':'Tequila Jose Cuervo Especial o Mezcal Moskalti, Licor Controy, Limon, azucar y pulpa natural',
