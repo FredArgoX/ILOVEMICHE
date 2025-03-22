@@ -447,11 +447,108 @@ const gonzalitas = {
     'product':'gonzalitas',
     'description':'',
     'content':Array(
-        {'subtitle':'',
-        'description':'',
-        'flavors':[],
+        // Alitas
+        {'subtitle':'Alitas',
+        'description':'Sencillas',
+        'flavors':['(6pzas) Con verdura y aderezo'],
         'table':[
-
+            {'option':' ', 'price_unique':130}
+        ]},
+        {'subtitle':'',
+            'description':'DUO',
+            'flavors':['(6pzas) Con una pequeña porción de papas, verdura y aderezo'],
+            'table':[
+            {'option':' ', 'price_unique':150}
+        ]},
+        {'subtitle':'',
+            'description':'Combo 1',
+            'flavors':['(12pzas) Acompañadas de nachos con queso, verdura y aderezo'],
+            'table':[
+            {'option':' ', 'price_unique':250}
+        ]},
+        {'subtitle':'',
+            'description':'Combo 2',
+            'flavors':['(20pzas) Acompañadas de nachos con queso, verdura y aderezo'],
+            'table':[
+            {'option':' ', 'price_unique':345}
+        ]},
+        {'subtitle':'',
+            'description':'Combo 3',
+            'flavors':['(30pzas) Acompañadas de nachos con queso/chorizo, verdura y aderezo'],
+            'table':[
+            {'option':' ', 'price_unique':535}
+        ]},
+        {'subtitle':'',
+            'description':'Combo 4',
+            'flavors':['(50pzas) Acompañadas de nachos con queso/chorizo, verdura y aderezo'],
+            'table':[
+            {'option':' ', 'price_unique':860}
+        ]},
+        // Hamburguesas
+        {'subtitle':'Hamburguesas',
+            'description':'Sencilla',
+            'flavors':['Carne mixta / lechuga / jitomate / cebolla caramelizada / queso manchego'],
+            'table':[
+            {'option':' ', 'price_unique':130}
+        ]},
+        {'subtitle':'',
+            'description':'Hawaiana',
+            'flavors':['Carne mixta / lechuga / jitomate / piña / tocino / cebolla caramelizada / queso manchego / jamón'],
+            'table':[
+            {'option':' ', 'price_unique':140}
+        ]},
+        {'subtitle':'',
+            'description':'Canadiense',
+            'flavors':['Pechuga empanizada / lechuga / jitomate / cebolla caramelizada / queso manchego / tocino / salsa BBQ'],
+            'table':[
+            {'option':' ', 'price_unique':140}
+        ]},
+        {'subtitle':'',
+            'description':'Taxqueña',
+            'flavors':['Carne al pastor / chile morrón / piña / queso manchego / cebolla caramelizada'],
+            'table':[
+            {'option':' ', 'price_unique':140}
+        ]},
+        {'subtitle':'',
+            'description':'Mexicana',
+            'flavors':['Carne arrachera / lechuga / jitomate / cebolla caramelizada / queso manchego / guacamole'],
+            'table':[
+            {'option':' ', 'price_unique':150}
+        ]},
+        {'subtitle':'',
+            'description':'Mamalona',
+            'flavors':['Combinación de SENCILLA / HAWAIANA / CANADIENSE'],
+            'table':[
+            {'option':' ', 'price_unique':330}
+        ]},
+        // Costillas
+        {'subtitle':'Costillas',
+            'description':'',
+            'flavors':[],
+            'table':[
+                {'option':'300 g', 'price_unique_bullet':155 },            
+                {'option':'500 g', 'price_unique_bullet':260 },            
+                {'option':'1 kg',  'price_unique_bullet':500 }
+        ]},
+        // Salsas
+        {'subtitle':'Salsas',
+            'description':'',
+            'flavors':['BBQ', 'Mango', 'Mango habanero', 'Original', 'Mango Sriracha', 'Picositas', 'Pelon Pelo Rico'],
+            'table':[
+        ]},
+        // Extra
+        {'subtitle':'Extra',
+            'description':'',
+            'flavors':[],
+            'table':[
+                {'option':'Piña',                     'price_unique_bullet':20 },            
+                {'option':'Queso manchego',           'price_unique_bullet':35 },            
+                {'option':'Jamón',                    'price_unique_bullet':15 },
+                {'option':'Tocino',                   'price_unique_bullet':20 },
+                {'option':'Salsa',                    'price_unique_bullet':20 },
+                {'option':'Alita',                    'price_unique_bullet':23 },
+                {'option':'Carne (Mixta, Can, Tax)',  'price_unique_bullet':85 },
+                {'option':'Carne (Mexicana)',         'price_unique_bullet':95 }
         ]},
     ),
 };
@@ -468,7 +565,8 @@ const products_iterable = Array(
     varios,
     aguachiles,
     ceviches,
-    botanas
+    botanas,
+    gonzalitas
 );
 
 
