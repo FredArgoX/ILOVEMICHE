@@ -81,10 +81,8 @@ header{
 /* Main Content style */
 main{
     padding: var(--general-padding);
+    padding-block-end: 0;
 }
-
-
-
 
 #temporada-container{
     display: flex;
@@ -116,9 +114,54 @@ main{
     align-items: center;
     padding-block-end: var(--general-padding);
 }
-
-
-
-
+/* /////////////////////////////////////////////////////// */
+/* Footer Content style */
+footer{
+    padding: var(--general-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    padding-block-start: 0;
+    gap: var(--general-padding);
+}
+#footer-separator{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.author{
+    color: var(--color-b);
+    font-weight: 500;
+    cursor: pointer;
+}
+.red{
+    color: var(--color-g);
+    font-weight: 600;
+}
+.author-tag{
+    color: var(--color-g);
+    font-weight: 600;
+}
+.social-container{
+    display: flex;
+    flex-direction: row;
+    gap: calc(var(--common-gap) - 18px);
+}
+.social-icon{
+    background-color: var(--color-a);
+    color: var(--color-g);
+    border-radius: 50%;
+    padding: 1rem;
+    cursor: pointer;
+}
+.social-icon:hover,
+.social-icon:focus{
+    background-color: var(--color-g);
+    color: var(--color-a);
+}
 
 
