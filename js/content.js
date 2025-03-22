@@ -652,7 +652,7 @@ products_iterable.forEach(product => {
                     const tr1 = document.createElement('tr');
                     const td1 = document.createElement('td');
                     const td2 = document.createElement('td');
-                    td1.classList.add('btop');
+                    td1.classList.add('btop', 'lal');
                     td2.classList.add('btop', 'ral');
 
                     // Option ---     Litro $xx
