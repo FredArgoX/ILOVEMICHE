@@ -142,6 +142,12 @@ const bebidas = {
         'table':[
             {'option':' ', 'price_litro':90,  'price_top':140},
         ]},
+        {'subtitle':'Tinto de Verano',
+        'description':'Limón, endulzante, vino, refresco de lima',
+        'flavors':[],
+        'table':[
+            {'option':' ', 'price_litro':100,  'price_top':140},
+        ]},        
         {'subtitle':'Copa de Vino',
         'description':'',
         'flavors':[],
