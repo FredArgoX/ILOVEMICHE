@@ -12,6 +12,3 @@ githubBtn.addEventListener("click", () => {
 linkedinBtn.addEventListener("click", () => {
     window.open("https://www.linkedin.com/in/fredy-arce-data-science/", "_blank");
 });
-xBtn.addEventListener("click", () => {
-    window.open("https://x.com/FredyArgoX", "_blank");
-});
