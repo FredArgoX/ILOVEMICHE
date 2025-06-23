@@ -40,6 +40,7 @@ const cerveza = {
         'flavors':[],
         'table':[
             {'option':' ', 'price_litro':80,  'price_top':130},
+            {'option':'Banderilla de aceitunas', 'price_unique':20},
         ]},
     ),
 };
@@ -279,6 +280,7 @@ const topping = {
         'table':[
             {'id':46, 'item':'Camaron'},
             {'id':47, 'item':'Cueritos'},
+            {'id':51, 'item':'Aceitunas'},
         ]},
     ),
 };
