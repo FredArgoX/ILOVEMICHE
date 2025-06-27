@@ -9,6 +9,7 @@
     --color-e: #272727;
     --color-f: #a0a0a0;
     --color-g: #cc0000;
+    --color-h: #0f0f0f;
 
     /* General Spacing */
     --general-margin: 15px;
@@ -37,7 +38,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: var(--color-a);
+    background-color: var(--color-h);
 }
 html,
 body {
