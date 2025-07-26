@@ -339,8 +339,8 @@ const varios = {
         'table':[
             {'option':'Caribe Cooler', 'price_unique_bullet':40},
             {'option':'Agua Natural',  'price_unique_bullet':20},
-            {'option':'Agua Mineral',  'price_unique_bullet':30},
-            {'option':'Refresco',      'price_unique_bullet':30},
+            {'option':'Agua Mineral',  'price_unique_bullet':35},
+            {'option':'Refresco',      'price_unique_bullet':35},
             {'option':'Cafe',          'price_unique_bullet':40},
             {'option':'Te',            'price_unique_bullet':40},
         ]},
