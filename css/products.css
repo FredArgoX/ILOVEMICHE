@@ -8,6 +8,7 @@
     --color-f: #a0a0a0;
     --color-g: #cc0000;
     --color-h: #000000;
+    --color-i: #04101e;
 
     /* General Spacing */
     --general-margin: 15px;
@@ -167,4 +168,34 @@ table td{
 
 
     display: none;
+}
+
+
+#kids_navigation{
+    /*border: 1px solid crimson;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--general-padding);
+}
+#goToKids{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 800;
+    height: 3.33rem;
+    background-color: var(--color-i);
+    border-top-left-radius: 3.33rem;
+    border-bottom-right-radius: 3.33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    /*margin-block-end: var(--general-margin);*/
+    text-decoration: none;
+    color: var(--color-b);
+    border: 3px solid chartreuse;
 }

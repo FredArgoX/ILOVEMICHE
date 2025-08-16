@@ -453,11 +453,149 @@ const botanas = {
             {'option':'Papas a la francesa con Queso', 'price_unique_bullet':70 },
             {'option':'Sopa maruchan',                 'price_unique_bullet':50 },
             {'option':'Dedos de queso (8 pzas)',       'price_unique_bullet':100},
-            {'option':'Camaron para pelar (Ch)',       'price_unique_bullet':120},
-            {'option':'Camaron para pelar (Med)',      'price_unique_bullet':220},
         ]},
     ),
 };
+
+
+
+const kids = {
+    'product':'kids',
+    'description':'',
+    'content':Array(
+        // Frapes
+        {'subtitle':'Frapés',
+        'btn':true,
+        'description':'Leche entera por default. Cambio a leche deslactosada / coco / avena: +$15',
+        'flavors':['Galleta Oreo', 'Moka', 'Capuchino Original', 'Chocomenta', 'Hot Cocoa', 'Mazapán', 'Taro', 'Matcha'],
+        'table':[
+            {'option':' ', 'price_chica':95,  'price_chica_top':125},
+        ]},
+        {'subtitle':'',
+        'btn':true,
+        'description':'Toppings para frapés:',
+        'flavors':['Palito de chocolate', 'Bocadin', 'Moneda de chocolate', 'Malvavisco cubierto', 'Huesitos de chocolate', 'Chocoretas', 'Mini lunetas', 'Huevitos', 'Chocofresky\'s', 'Galleta waffle', 'Mini bubulubu', 'Durazno en almíbar', 'Piña en almíbar', 'Fresa'],
+        'table':[
+            {},
+        ]},
+        {'subtitle':'',
+        'btn':true,
+        'description':'Puedes agregar a tu frapé lo siguiente:',
+        'flavors':[],
+        'table':[
+            {'option':'Paleta congelada de chocolate', 'price_unique_bullet':30 },
+            {'option':'Panquesito de chocolate',       'price_unique_bullet':11 },
+            {'option':'Gansito',                       'price_unique_bullet':15 },
+            {'option':'Pingüino',                      'price_unique_bullet':15 },
+        ]},
+        // LEGOs
+        {'subtitle':'LEGOs',
+        'btn':true,
+        'description':'',
+        'flavors':['Azul', 'Rojo', 'Verde', 'Amarillo',],
+        'table':[
+            {'option':' ', 'price_chica':80,  'price_chica_top':110},
+        ]},
+        // LEGOs en Construccion
+        {'subtitle':'LEGOs en Construcción',
+        'btn':true,
+        'description':'',
+        'flavors':['Azul-Amarillo (Curazao-Mango)', 'Azul-Rojo (Curazao-Fresa)', 'Azul-Verde (Curazao-Manzana)', 'Rosa-Azul (Frambuesa-Curazao)',],
+        'table':[
+            {'option':' ', 'price_chica':90,  'price_chica_top':120},
+        ]},
+        // Hamburguesas
+        {'subtitle':'Hamburguesas',
+            'description':'Toda hamburguesa contiene: Pan / Mayonesa / Jamón / Queso amarillo / Jitomate / Cebolla / Lechuga / Orden de papas',
+            'flavors':[],
+            'table':[
+            {}
+        ]},
+        {'subtitle':'',
+            'description':'Sencilla',
+            'flavors':['Carne de res'],
+            'table':[
+            {'option':' ', 'price_unique':110}
+        ]},
+        {'subtitle':'',
+            'description':'Hawaiana',
+            'flavors':['Carne de res / Piña'],
+            'table':[
+            {'option':' ', 'price_unique':120}
+        ]},
+        {'subtitle':'',
+            'description':'Arrachera',
+            'flavors':['Carne arrachera'],
+            'table':[
+            {'option':' ', 'price_unique':160}
+        ]},
+        // Jochos
+        {'subtitle':'Jochos',
+            'description':'',
+            'flavors':[],
+            'table':[
+            {}
+        ]},
+        {'subtitle':'',
+            'description':'Hot Dog Sencillo',
+            'flavors':['Pan con mayonesa / Salchicha / Jitomate / Cebolla'],
+            'table':[
+            {'option':' ', 'price_unique':49}
+        ]},
+        {'subtitle':'',
+            'description':'Hot Dog con Tocino',
+            'flavors':['Pan con mayonesa / Salchicha con tocino / Jamón / Jitomate / Cebolla'],
+            'table':[
+            {'option':' ', 'price_unique':57}
+        ]},
+        {'subtitle':'',
+            'description':'Pizza Dog',
+            'flavors':['Pan con mayonesa / Salchicha / Costra de queso / Salami / Salsa de pizza / Hierbas finas'],
+            'table':[
+            {'option':' ', 'price_unique':99}
+        ]},
+        {'subtitle':'',
+            'description':'Queso Dog',
+            'flavors':['Quesote empanizado / Salchicha con tocino / Jitomate / Cebolla'],
+            'table':[
+            {'option':' ', 'price_unique':90}
+        ]},
+        // Botanas
+        {'subtitle':'Botanas',
+        'description':'',
+        'flavors':[],
+        'table':[
+            {'option':'Salchi-papas',                  'price_unique_bullet':90 },            
+            {'option':'Burrote',                       'price_unique_bullet':40 },            
+            {'option':'Bowl de 5 toppings',            'price_unique_bullet':50 },
+            {'option':'Palomitas',                     'price_unique_bullet':50 },
+            {'option':'Nachos',                        'price_unique_bullet':50 },
+            {'option':'Guacamole',                     'price_unique_bullet':80 },
+            {'option':'Nachos de topping papas',       'price_unique_bullet':60 },
+            {'option':'30 camarones cocteleros',       'price_unique_bullet':150},
+            {'option':'Tender',                        'price_unique_bullet':90 },
+            {'option':'Papas a la francesa',           'price_unique_bullet':60 },
+            {'option':'Papas a la francesa con queso', 'price_unique_bullet':70 },
+            {'option':'Sopa maruchan',                 'price_unique_bullet':50 },
+            {'option':'Dedos de queso',                'price_unique_bullet':100},
+        ]},
+        // Pasteles
+        {'subtitle':'Pasteles',
+        'description':'',
+        'flavors':[],
+        'table':[
+            {'option':'Choco-Flan',      'price_unique_bullet':366 },         
+            {'option':'Queso-Chispas',   'price_unique_bullet':540 },   
+            {'option':'Queso-Frambuesa', 'price_unique_bullet':499 },            
+            {'option':'Vainilla',        'price_unique_bullet':450 },
+        ]},
+    ),
+};
+
+
+
+
+
 const gonzalitas = {
     'product':'gonzalitas',
     'description':'',
@@ -581,6 +719,7 @@ const products_iterable = Array(
     aguachiles,
     ceviches,
     botanas,
+    kids,
     gonzalitas
 );
 
@@ -846,3 +985,18 @@ products_iterable.forEach(product => {
     }
 });
 
+// Botón para ir a Kids
+document.getElementById('goToKids').addEventListener('click', function(e) {
+  e.preventDefault();
+
+  // 1) Hacer scroll hasta el carrusel
+  document.querySelector('.swiper').scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+
+  // 2) Mover Swiper hasta la slide número 10 (índice 9)
+  swiper.slideToLoop(10, 600); 
+  // 👆 usa slideToLoop si tienes loop activado
+  //    si NO usas loop, entonces usa: swiper.slideTo(9, 600);
+});

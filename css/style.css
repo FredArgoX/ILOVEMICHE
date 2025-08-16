@@ -165,4 +165,9 @@ footer{
     color: var(--color-a);
 }
 
-
+/* /////////////////////////////////////////////////////// */
+/* KIDS go-to btn */
+html { scroll-behavior: smooth; }
+/* Ajusta 80px a la altura de tu navbar fija, si aplica */
+#swiperx { scroll-margin-top: 10px; }
+/* /////////////////////////////////////////////////////// */
