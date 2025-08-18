@@ -169,5 +169,5 @@ footer{
 /* KIDS go-to btn */
 html { scroll-behavior: smooth; }
 /* Ajusta 80px a la altura de tu navbar fija, si aplica */
-#swiperx { scroll-margin-top: 10px; }
+#swiperx, #swiper_kids { scroll-margin-top: 10px; }
 /* /////////////////////////////////////////////////////// */
