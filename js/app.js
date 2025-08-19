@@ -1,4 +1,5 @@
-var swiper = new Swiper('.swiper', {
+
+var swiper = new Swiper('#swiperx', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
@@ -46,6 +47,20 @@ var swiper = new Swiper('.swiper', {
 
 // Manually trigger the `init` event to ensure it runs on page load
 swiper.emit('init');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

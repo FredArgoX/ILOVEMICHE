@@ -990,7 +990,7 @@ document.getElementById('goToKids').addEventListener('click', function(e) {
   e.preventDefault();
 
   // 1) Hacer scroll hasta el carrusel
-  document.querySelector('.swiper').scrollIntoView({
+  document.querySelector('#swiperx').scrollIntoView({
     behavior: 'smooth',
     block: 'start'
   });
