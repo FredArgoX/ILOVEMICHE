@@ -21,29 +21,28 @@ var swiper2 = new Swiper('#swiperx2', {
         init(swiper2) {
             // Display the description for the initial slide
             const activeSlide = swiper2.slides[swiper2.realIndex];
-            const descriptionId = activeSlide.getAttribute('data-description-id');
+            //const descriptionId = activeSlide.getAttribute('data-description-id');
 
-            const activeDescription = document.getElementById(descriptionId);
-            if (activeDescription) {
-                activeDescription.classList.add('active');
-            }
+            //const activeDescription = document.getElementById(descriptionId);
+            //if (activeDescription) {
+            //    activeDescription.classList.add('active');
+            //}
         },
         slideChange(swiper2) {
             const activeSlide = swiper2.slides[swiper.realIndex];
-            const descriptionId = activeSlide.getAttribute('data-description-id');
+           // const descriptionId = activeSlide.getAttribute('data-description-id');
 
             // Hide all descriptions
-            const descriptions = document.querySelectorAll('.description');
-            descriptions.forEach(desc => desc.classList.remove('active'));
+            //const descriptions = document.querySelectorAll('.description');
+            //descriptions.forEach(desc => desc.classList.remove('active'));
 
             // Show the current description
-            const activeDescription = document.getElementById(descriptionId);
-            if (activeDescription) {
-                activeDescription.classList.add('active');
+            //const activeDescription = document.getElementById(descriptionId);
+            //if (activeDescription) {
+            //    activeDescription.classList.add('active');
             }
         }
-    }
-});
+    });
 
 // Manually trigger the `init` event to ensure it runs on page load
 swiper2.emit('init');

@@ -48,6 +48,12 @@
     user-select: auto;
 }
 
+.swiper2-slide img{
+    /* zoom in by default */
+    transform: scale(1.5);  /* 20% zoom */
+    transition: transform 0.4s ease; /* keeps it smooth if you later animate */
+}
+
 .swiper-pagination, .swiper2-pagination{
     display: block;
     position: relative;
