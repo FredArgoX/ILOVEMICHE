@@ -82,6 +82,13 @@ const bebidas = {
             {'option':'Black & White', 'price_litro':180, 'price_top':230},
             {'option':'Red Label',     'price_litro':190, 'price_top':240},
         ]},
+        {'subtitle':'Mentirosa',
+        'btn':true,
+        'description':'Vodka, manzana verde, refresco de lima, perlas explosivas de manzana verde',
+        'flavors':[],
+        'table':[
+            {'option':' ', 'price_litro':150,  'price_top':190},
+        ]},
         {'subtitle':'Jacaranda',
         'btn':true,
         'description':'Vodka Smirnoff, infusion floral, endulzante, agua mineral, limon. Cambia de color, coloca el limon y toma un color morado',
