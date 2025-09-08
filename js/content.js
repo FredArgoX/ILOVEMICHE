@@ -466,7 +466,7 @@ const kids = {
         // Frapes
         {'subtitle':'Frapés',
         'btn':true,
-        'description':'Leche entera por default. Cambio a leche deslactosada / coco / avena: +$15',
+        'description':'Leche entera por default. Cambio a leche deslactosada / coco / almendra: +$15',
         'flavors':['Galleta Oreo', 'Moka', 'Capuchino Original', 'Chocomenta', 'Hot Cocoa', 'Mazapán', 'Taro', 'Matcha'],
         'table':[
             {'option':' ', 'price_chica':95,  'price_chica_top':125},
