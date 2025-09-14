@@ -501,7 +501,7 @@ const kids = {
         'description':'',
         'flavors':['Azul', 'Rojo', 'Verde', 'Amarillo',],
         'table':[
-            {'option':' ', 'price_chica':80,  'price_chica_top':110},
+            {'option':' ', 'price_chica':85,  'price_chica_top':120},
         ]},
         // LEGOs en Construccion
         {'subtitle':'LEGOs en Construcción',
@@ -509,7 +509,7 @@ const kids = {
         'description':'',
         'flavors':['Azul-Amarillo (Curazao-Mango)', 'Azul-Rojo (Curazao-Fresa)', 'Azul-Verde (Curazao-Manzana)', 'Rosa-Azul (Frambuesa-Curazao)',],
         'table':[
-            {'option':' ', 'price_chica':90,  'price_chica_top':120},
+            {'option':' ', 'price_chica':105,  'price_chica_top':145},
         ]},
         // Hamburguesas
         {'subtitle':'Hamburguesas',
