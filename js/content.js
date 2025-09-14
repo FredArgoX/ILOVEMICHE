@@ -461,6 +461,8 @@ const botanas = {
             {'option':'Papas a la francesa con Queso', 'price_unique_bullet':70 },
             {'option':'Sopa maruchan',                 'price_unique_bullet':50 },
             {'option':'Dedos de queso (8 pzas)',       'price_unique_bullet':100},
+            {'option':'Salchi-papas',                  'price_unique_bullet':90 },
+            {'option':'Burrote',                       'price_unique_bullet':40 },
         ]},
     ),
 };
