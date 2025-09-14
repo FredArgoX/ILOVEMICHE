@@ -588,6 +588,7 @@ const kids = {
             {'option':'Dedos de queso',                'price_unique_bullet':100},
         ]},
         // Pasteles
+        /*
         {'subtitle':'Pasteles',
         'description':'',
         'flavors':[],
@@ -597,6 +598,7 @@ const kids = {
             {'option':'Queso-Frambuesa', 'price_unique_bullet':499 },            
             {'option':'Vainilla',        'price_unique_bullet':450 },
         ]},
+        */
     ),
 };
 
