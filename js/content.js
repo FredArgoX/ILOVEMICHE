@@ -481,7 +481,7 @@ const kids = {
         {'subtitle':'',
         'btn':true,
         'description':'Toppings para frapés:',
-        'flavors':['Palito de chocolate', 'Bocadin', 'Moneda de chocolate', 'Malvavisco cubierto', 'Huesitos de chocolate', 'Chocoretas', 'Mini lunetas', 'Huevitos', 'Chocofresky\'s', 'Galleta waffle', 'Mini bubulubu', 'Durazno en almíbar', 'Piña en almíbar', 'Fresa'],
+        'flavors':['Palito de chocolate', 'Bocadin', 'Moneda de chocolate', 'Malvavisco cubierto', 'Huesitos de chocolate', 'Chocoretas', 'Mini lunetas', 'Huevitos', 'Chocofresky\'s', 'Galleta waffle', 'Mini bubulubu', 'Durazno en almíbar', 'Piña en almíbar', 'Fresa', 'Trufa de lunetas', 'Trufa de ferrero', 'Trufa de algodón de azúcar', 'Trufa de mazapan', 'Trufa de chocoretas'],
         'table':[
             {},
         ]},
