@@ -358,7 +358,7 @@ const varios = {
         'table':[
             {'option':'Limonada',                'price_litro':60, 'price_top':100, 'price_chica':40, 'price_chica_top':60},
             /*{'option':'Jugo',                    'price_litro':60, 'price_top':100, 'price_chica':40, 'price_chica_top':60},*/
-            {'option':'Chamoyada (sin alcohol)',                                    'price_chica':45, 'price_chica_top':60},
+            {'option':'Chamoyada (sin alcohol)',                                    'price_chica':45, 'price_chica_top':70},
         ]},
     ),
 };
