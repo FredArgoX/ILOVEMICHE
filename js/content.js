@@ -173,7 +173,7 @@ const bebidas = {
         'description':'Mezcal Tobala, Concentrado de Jamaica, Limon',
         'flavors':[],
         'table':[
-            {'option':' ', 'price_litro':120,  'price_top':150},
+            {'option':' ', 'price_litro':120,  'price_top':160},
         ]},
         {'subtitle':'Mezcal',
         'description':'Blanco Joven',
