@@ -477,6 +477,7 @@ const kids = {
         'flavors':['Galleta Oreo', 'Moka', 'Capuchino Original', 'Chocomenta', 'Hot Cocoa', 'Mazapán', 'Taro', 'Matcha'],
         'table':[
             {'option':' ', 'price_chica':95,  'price_chica_top':125},
+            {'option':' ', 'price_grande':110,  'price_grande_top':145},
         ]},
         {'subtitle':'',
         'btn':true,
@@ -979,6 +980,27 @@ products_iterable.forEach(product => {
                         td4.classList.add('ral');
                         td3.textContent = '';
                         td4.textContent = `Ch C/Topping $${item.price_chica_top}`;
+                        tr2.appendChild(td3);
+                        tr2.appendChild(td4);
+                        table.appendChild(tr2);
+                    }
+
+                    // Option ---        Gd $xx
+                    //         Gd C/Topping $xx
+                    if (item.option && !item.price_litro && !item.price_top && item.price_grande && item.price_grande_top) {
+
+                        td1.innerHTML = `<li>${item.option}</li>`;
+                        td2.textContent = `Gd $${item.price_grande}`;
+                        tr1.appendChild(td1);
+                        tr1.appendChild(td2);
+                        table.appendChild(tr1);
+
+                        const tr2 = document.createElement('tr');
+                        const td3 = document.createElement('td');
+                        const td4 = document.createElement('td');
+                        td4.classList.add('ral');
+                        td3.textContent = '';
+                        td4.textContent = `Gd C/Topping $${item.price_grande_top}`;
                         tr2.appendChild(td3);
                         tr2.appendChild(td4);
                         table.appendChild(tr2);
