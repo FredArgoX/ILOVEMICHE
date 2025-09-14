@@ -140,7 +140,7 @@ const bebidas = {
         {'subtitle':'Paloma',
         'btn':true,
         'description':'Tequila Jose Cuervo Especial o Mezcal Moskalti, limon, sal, refresco de toronja',
-        'flavors':['Limón', 'Fresa', 'Frutos rojos', 'Maracuya', 'Mango', 'Jamaica', 'Cereza'],
+        'flavors':['Limón', 'Fresa', 'Frutos rojos', 'Maracuya', 'Mango', 'Jamaica', 'Cereza', 'Mandarina (temporada)'],
         'table':[
             {'option':' ', 'price_litro':130,  'price_top':170},
         ]},
