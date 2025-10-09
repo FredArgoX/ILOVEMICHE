@@ -506,7 +506,7 @@ const kids = {
         'description':'',
         'flavors':['Azul', 'Rojo', 'Verde', 'Amarillo', 'Azul-Amarillo (Curazao-Mango)', 'Azul-Rojo (Curazao-Fresa)', 'Azul-Verde (Curazao-Manzana)', 'Rosa-Azul (Frambuesa-Curazao)',],
         'table':[
-            {'option':' ', 'price_chica':85,  'price_chica_top':120},
+            {'option':' ', 'price_chica':90,  'price_chica_top':120},
             {'option':' ', 'price_grande':105,  'price_grande_top':145},
         ]},
         // LEGOs en Construccion
