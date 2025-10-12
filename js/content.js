@@ -58,9 +58,15 @@ const bebidas = {
         ]},
         {'subtitle':'',
         'description':'',
-        'flavors':['Fresa', 'Frutos Rojos', 'Vino', 'Cereza', 'Mandarina (temporada)'],
+        'flavors':['Fresa', 'Frutos Rojos', 'Vino', 'Cereza'],
         'table':[
             {'option':' ', 'price_litro':120,  'price_top':170},
+        ]},
+        {'subtitle':'',
+        'description':'',
+        'flavors':['Mandarina'],
+        'table':[
+            {'option':' ', 'price_litro':135,  'price_top':175},
         ]},
         {'subtitle':'Piña_Colada_Frappe',
         'btn':true,
