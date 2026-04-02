@@ -702,9 +702,9 @@ const gonzalitas = {
             'description':'',
             'flavors':[],
             'table':[
-                {'option':'300 g', 'price_unique_bullet':155 },            
-                {'option':'500 g', 'price_unique_bullet':260 },            
-                {'option':'1 kg',  'price_unique_bullet':500 }
+                {'option':'300 g', 'price_unique_bullet':165 },            
+                {'option':'500 g', 'price_unique_bullet':270 },            
+                {'option':'1 kg',  'price_unique_bullet':520 }
         ]},
         // Salsas
         {'subtitle':'Salsas',
