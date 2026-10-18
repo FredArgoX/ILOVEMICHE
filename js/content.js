@@ -1118,3 +1118,22 @@ document.getElementById('goToKids').addEventListener('click', function(e) {
   // 👆 usa slideToLoop si tienes loop activado
   //    si NO usas loop, entonces usa: swiper.slideTo(9, 600);
 });
+
+
+
+
+// Botón para ir a Pizza
+document.getElementById('goToPizza').addEventListener('click', function(e) {
+  e.preventDefault();
+
+  // 1) Hacer scroll hasta el carrusel
+  document.querySelector('#swiperx').scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+
+  // 2) Mover Swiper hasta la slide número 10 (índice 9)
+  swiper.slideToLoop(7, 600); 
+  // 👆 usa slideToLoop si tienes loop activado
+  //    si NO usas loop, entonces usa: swiper.slideTo(9, 600);
+});
