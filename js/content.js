@@ -369,6 +369,79 @@ const varios = {
         ]},
     ),
 };
+
+const pizza = {
+    'product':'pizza',
+    'description':'',
+    'content':Array(
+        {'subtitle':'Hawaiana',
+        'description':'Jamón / Piña',
+        'flavors':[],
+        'table':[
+        ]},
+        {'subtitle':'Pepperoni',
+        'description':'Pepperoni',
+        'flavors':[],
+        'table':[
+        ]},
+        {'subtitle':'3 Carnes',
+        'description':'Jamón / Salchicha / Tocino',
+        'flavors':[],
+        'table':[
+        ]},
+        {'subtitle':'Oaxaqueña',
+        'description':'Chorizo / Frijol / Chile morrón / Cebolla morada',
+        'flavors':[],
+        'table':[
+        ]},
+        {'subtitle':'Combinada',
+        'description':'Chorizo / Frijol / Chile morrón / Cebolla morada / Champiñon',
+        'flavors':[],
+        'table':[
+        ]},
+        {'subtitle':'Margarita',
+        'description':'Jitomate / Albahaca / Aceite de oliva',
+        'flavors':[],
+        'table':[
+            {'option':'Chica',   'price_unique_bullet':110},
+            {'option':'Mediana', 'price_unique_bullet':250},
+            {'option':'Grande',  'price_unique_bullet':310},
+        ]},
+        {'subtitle':'Nuggets',
+        'description':'Nuggets / Salsa [Elije BBQ, Mango habanero, o Red Hot] / Aderezo Ranch',
+        'flavors':[],
+        'table':[
+        ]},
+        {'subtitle':'Pizza ILOVE MICHE',
+        'description':'Camaron coctelero / Elote amarillo / Salsa chipotle',
+        'flavors':[],
+        'table':[
+            {'option':'Chica',   'price_unique_bullet':130},
+            {'option':'Mediana', 'price_unique_bullet':280},
+            {'option':'Grande',  'price_unique_bullet':350},
+        ]},
+    ),
+};
+
+
+
+
+//const pizza = {
+//    'product': 'pizza',
+//    'description': '',
+//    'content':Array(
+//        {'subtitle':'Hawaiana',
+//         'btn':true,
+//         'description':'Jamon/ Piña',
+//         'flavors':[],
+//         'table':[
+//            {'option':'Chica',   'price_unique_bullet':110},
+//            {'option':'Mediana', 'price_unique_bullet':110},
+//            {'option':'Grande',  'price_unique_bullet':110},
+//         ]},
+//    ),
+//};
+
 const aguachiles = {
     'product':'aguachiles',
     'description':'',
@@ -739,6 +812,7 @@ const products_iterable = Array(
     cubetas,
     tablas,
     varios,
+    pizza,
     aguachiles,
     ceviches,
     botanas,

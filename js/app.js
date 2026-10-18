@@ -47,30 +47,3 @@ var swiper = new Swiper('#swiperx', {
 
 // Manually trigger the `init` event to ensure it runs on page load
 swiper.emit('init');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
