@@ -407,8 +407,8 @@ const pizza = {
             {'option':'Mediana', 'price_unique_bullet':250},
             {'option':'Grande',  'price_unique_bullet':310},
         ]},
-        {'subtitle':'Nuggets',
-        'description':'Nuggets / Salsa [Elije BBQ, Mango habanero, o Red Hot] / Aderezo Ranch',
+        {'subtitle':'Tenders',
+        'description':'Tenders / Salsa [Elije BBQ, Mango habanero, o Red Hot] / Aderezo Ranch',
         'flavors':[],
         'table':[
         ]},
