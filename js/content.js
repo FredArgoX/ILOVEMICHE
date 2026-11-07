@@ -426,21 +426,6 @@ const pizza = {
 
 
 
-//const pizza = {
-//    'product': 'pizza',
-//    'description': '',
-//    'content':Array(
-//        {'subtitle':'Hawaiana',
-//         'btn':true,
-//         'description':'Jamon/ Piña',
-//         'flavors':[],
-//         'table':[
-//            {'option':'Chica',   'price_unique_bullet':110},
-//            {'option':'Mediana', 'price_unique_bullet':110},
-//            {'option':'Grande',  'price_unique_bullet':110},
-//         ]},
-//    ),
-//};
 
 const aguachiles = {
     'product':'aguachiles',
